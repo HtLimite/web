@@ -1,0 +1,680 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#one,.two,#three,#liyan,.footer
+{
+    overflow: hidden;
+}
+#canvas1
+{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    transition: all .2s ease;
+}
+.header
+{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding-inline-start: 0;
+}
+.one-1
+{
+    text-align: center;
+    height: 100px;
+    background: #00bcd433;
+    min-width: 293px;
+}
+.aone
+{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: all 0.7s;
+    padding: 21.5px 43px;
+    animation: donghua1 3s 2s infinite ease-in-out;
+}
+.header li:hover 
+{
+    background-color:#00ff9d47;
+}
+#bag
+{
+    background-image: url("./instagram/bag19.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+.header>li:nth-child(2)
+{
+    margin-left: 150px;
+}
+.header>li 
+{
+    font-size: 44px;
+    font-family: long;
+    list-style-type: none;
+    float: left;
+}
+.visit
+{
+    left: 47%;
+    position: absolute;
+    top: 50vh;
+    font-family: cat;
+    color: rebeccapurple;
+    transform: scale(0);
+    animation: donghua4 4s 1 ease-out ;
+}
+@font-face {
+    font-family: cat;
+    src: url(./font/CatCafe.ttf);
+}
+@font-face {
+    font-family: thin;
+    src: url(./font/segoeuil.ttf);
+}
+@font-face {
+    font-family: long;
+    src: url(./font/Montepetrum\ bold.ttf);
+}
+@font-face {
+    font-family: rule;
+    src: url(./font/corbell.ttf);
+}
+@font-face {
+    font-family: mi;
+    src: url(./font/MI_LanTing_Regular.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(./font/SourceHanSerifTC-Light.otf);
+}
+@font-face {
+    font-family: wenquan;
+    src: url(./font/文泉驿微米黑.ttf);
+}
+#hudone
+{
+    height: 0;
+    width: 100%;
+    overflow-y: hidden;
+    transition: all 1s;
+    position: absolute;
+    top: 0;
+    background-color: #282b2d;
+    opacity: 0.9;
+}
+#hover_life
+{
+    position: absolute;
+    width: 300px;
+    height: 470px;
+    left: 700px;
+    background: #191e31;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(0);
+    transition: ease-out all .7s;
+}
+#hover_life img
+{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+#hover_life p
+{
+    text-align: center;
+    color: white;
+    margin: -7px;
+    font-size: 13px;
+}
+#flexd
+{
+    z-index: 1;
+    position: fixed;
+    top: 50vh;
+}
+#flexd li
+{
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: .8;
+    animation: donghua2 3s 2s infinite ease-in-out;
+}
+#flexd li:hover img
+{
+    transform: scale(1.2);
+}
+#flexd li img
+{
+    width: 100%;
+    transition: all .5s ease-out;
+}
+#flexdnext
+{
+    z-index: 1;
+    position: fixed;
+    top: 50vh;
+    left: 80px;
+}
+li
+{
+    list-style: none;
+}
+#flexdnext ul li 
+{
+    width: 150px;
+    height: 150px;
+    background-color: #2b241fa1;
+    padding: 20px;
+}
+#flexdnext ul li:nth-child(1)
+{
+    position: relative;
+    top: -73px;
+    display: none;
+}
+#flexdnext ul li:nth-child(2)
+{
+    position: relative;
+    top: -17px;
+    display: none;    
+}
+#flexdnext ul li:nth-child(3)
+{
+    position: relative;
+    top: 34px;
+    display: none;
+}
+#flexdnext li img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+#svg
+{
+    height: 35px;
+    bottom: 3%;
+    position: absolute;
+    width: 35px;
+    left: 50%;
+    fill: #509db7;
+    animation: donghua3 ease-in-out 3s 2s infinite ;
+    border-radius: 50px;
+    padding: 7px;
+}
+#svg:hover
+{
+    cursor: pointer;
+    background-color: rgb(75 103 125 / 60%);
+}
+.atwo
+{
+    color: #818181;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: light;
+    display: block;
+    text-align: center;
+    margin: 137px 0;
+}
+.atwo:hover,.atwo:focus
+{
+    color:#f1f1f1;
+}
+.close
+{
+    position: absolute;
+    right: 100px;
+    font-size: 50px;
+    margin: 40px;
+
+}
+.two
+{
+    z-index: 2;
+    background-color: #509db7;
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: ridge;
+    background-image: url(./instagram/bag11.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0 ;
+}
+.two h2
+{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 30px 0;
+    font-family: wenquan;
+    color: #52c575a3;
+}
+h2:hover
+{
+    transform: scale(1.2);
+}
+h2
+{
+    transition: all ease-in-out 1s;
+}
+.two p
+{
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 27px;
+    font-family: rule;
+    color: #13595c;
+}
+#two-2
+{
+    position: relative;
+    width: 667px;
+    height: 400px;
+    overflow: hidden;
+    top: 53px;
+    cursor: pointer;
+}
+.img-list
+{
+    display: flex;
+    position: relative;
+    left: -667px;
+    transition: 0.5s ease-in-out;
+}
+.img2{
+    width: 100%;
+}
+.but a
+{
+    opacity: 0.5;
+    background:rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+
+}
+.but a:hover
+{
+    color: rgb(126, 106, 106);
+}
+.but
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    width: 667px;
+}
+#three
+{
+    height: 770px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8cdeeba6;
+}
+#three_one
+{
+    margin-left: 150px;
+    width: 300px;
+}
+#three_one ul li span
+{
+    display: inline-block;
+    width: 200px;
+    border-radius: 10px;
+    border: solid #80ada9;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#three_one ul li span:hover
+{
+
+    background-color:#9dd7ee;
+}
+#three_two
+{
+    width: 500px;
+    position: relative;
+}
+.duyu
+{
+    color: #6f3a3ae3;
+    padding: 30px;
+    background-color: #8cdeeba6;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    border: solid #8cdeeba6;
+    border-radius: 28px;
+}
+.more
+{
+    position: absolute;
+    display: none;
+    top: 0;
+}
+#worldmore2
+{
+    left: 150px;
+}
+.worldmore
+{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 94px;
+}
+.worldmore:hover
+{
+    animation: donghua5 ease 2s infinite;
+
+}
+#three_two span
+{
+    font-family: wenquan;
+    border-bottom-style: groove;
+    animation: donghua5 ease 2s infinite;
+}
+#worldsuoluo span:nth-last-child(1)
+{
+    position: relative;
+    left: 144px;
+}
+.footer
+{
+    background-color: rgb(47, 54, 75);
+    height: 230px;
+}
+#liuyan
+{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 70px 0;
+    background: url(./instagram/bag13.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#liuyan h3
+{
+    padding-bottom: 37px;
+    margin: 0;
+    color: #ffffff;
+    font-family:thin;
+}
+.input1
+{
+    width: 500px;
+    height: 100px;
+    resize: none;
+    position: relative;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 0px;
+}
+.input2
+{
+    
+    width: 100px;
+    height: 40px;
+}
+.subliuyan
+{
+    color: white;
+    background: #009688;
+    height: 40px;
+    width: 70px;
+    border: none;
+}
+.subliuyan:hover
+{
+    background-color: #13595c;    
+}
+.liuyan_two
+{
+    padding: 10px 0 17px 0;
+    width: 505px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.talkworld
+{
+    padding: 30px;
+    margin-bottom: 17px;
+    border-bottom: solid 1px #c78569;
+}
+.content
+{
+    width: 470px;
+    margin: 17px auto;
+    padding: 17px;
+    border-radius: 10px;
+    border: solid #a99191 1px;
+    color: #efa689;
+    font-family: thin;
+}
+.people_1
+{
+    color: #e97545eb;
+    margin-right: 237px;
+}
+@media screen and (max-width:1090px){
+    .header>li:nth-child(2) 
+    {
+        margin: 0;
+    }
+    .header>li 
+    {
+        font-size: 20px;
+    }
+    #hover_life
+    {
+        width: 30vh;
+        height: 47vh;
+        left: 7vh;
+        z-index: 2;
+    }
+    .visit
+    {
+    left: 37%;  
+    }
+    .close
+    {
+        right: 0;
+    }
+    .atwo
+    {
+        font-size: 15px;
+    }
+    .one-1
+    {
+        height: auto;
+    }
+    .aone
+    {
+        padding: 18px;
+    }
+    #bag
+    {
+        background-position-x: 17%;
+    }
+    #two
+    {
+        background-size: cover;
+        display: block;
+        font-size: 17px;
+        background-image: url(./instagram/bag16.jpg);
+        background-attachment: fixed;
+        padding: 130px 0;
+    }
+    .two h2
+    {
+        color: #9e9e9e;
+    }
+    #two-2
+    {
+    width: 100%;
+    height: auto;
+    }
+    .but 
+    {
+        width: 100%;
+        top: 37%;
+    }
+    #three
+    {
+        display: block;
+        height: auto;
+    }
+    #three_one
+    {
+        left: 7%;
+        position: relative;
+        width: auto;
+        margin-left: auto;
+        padding: 130px 0;
+    }
+    #three_two {
+        background: url(./instagram/bag21.jpg);
+        z-index: 1;
+        width: 100%;
+        position: relative;
+        margin: 0;
+        height: auto;
+    }
+    .duyu
+    {
+        border-radius: 0;
+        padding-bottom: 77px;
+    }
+    .worldmore
+    {
+        left: 3%;
+    }
+    #worldmore2
+    {
+        left: 4vh;
+    }
+    #liuyan
+    {
+        padding: 70px 30px;
+    }
+    .input1
+    {
+        width: 100%;
+    }
+    .liuyan_two
+    {
+        width: 100%;
+    }
+    .content
+    {
+        width: 90%;
+    }
+    .people_1
+    {
+        margin-right: 7vh;
+    }
+}
+.footer
+{
+    text-align: center;
+}
+.footer p
+{
+    padding-top: 30px;
+    font-family: wenquan;
+    color: #cad3d2db;
+    position: relative;
+    z-index: 2;
+}
+.footer span
+{
+    padding:0 3px;
+}
+
+
+
+@keyframes donghua2 {   
+0% {
+    transform: translateY(0%);
+}
+50% {
+    transform: translateY(-20%);
+}
+100% {
+    transform: translateY(0%);
+}
+}
+@keyframes donghua1 {
+0% {
+    transform: translateY(0%);
+}
+50% {
+    transform: translateY(10%);
+}
+100% {
+    transform: translateY(0%);
+}
+}
+@keyframes donghua3 {
+0% {
+    transform: translateY(0%);
+}
+50% {
+    transform: translateY(40%);
+}
+100% {
+    transform: translateY(0%);
+}
+}
+@keyframes donghua4 {
+0% {
+    transform: scale(0);
+}
+60% {
+    transform: scale(2.7);
+}
+80% {
+    transform: scale(2);
+}
+100%{
+    transform: scale(0);
+}
+}
+@keyframes donghua5 {
+0% {
+    transform: translateX(0%);
+}
+40% {
+    transform: translateX(-20%);
+}
+70% {
+    transform: translateX(10%);
+}
+100% {
+    transform: translateX(0%);
+}
+}
