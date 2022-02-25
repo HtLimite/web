@@ -226,7 +226,7 @@ function resizeCanvas() {
 
 resizeCanvas(canvas1);
 
-let num = 1000;//气泡数量
+let num = 100;//气泡数量
 let ballX = [];//球心的横坐标
 let ballY = [];//球心的纵坐标
 let ballR = [];//球的半径

@@ -1,0 +1,163 @@
+h3
+{
+    text-align: center;
+    margin: 67px 0;
+    color: white;
+}
+.one
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul
+{
+    list-style: none;
+    margin-top: 67px;
+}
+li
+{
+    padding: 17px 0;
+}
+.details
+{
+    text-decoration: none;
+    color: white;
+    width: 700px;
+    height: 200px;
+}
+.biga:hover
+{
+    background-color: #e1d6cf45;
+}
+#pub_a
+{
+    text-decoration: none;
+    color: #835244c7;
+    border: solid;
+    padding: 6px 20px;
+    font-size: 13px;
+    background-color:white;
+    border-radius: 3px;
+}
+#pub_a:hover
+{
+    background-color: #bdb8b861;
+}
+.list
+{
+    z-index: 2;
+    position: relative;
+    padding: 70px 0;
+}
+body
+{
+    background: url(./instagram/bag13.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#content
+{
+    width: 900px;
+    /* height: 700px; */
+    margin: 17px auto;
+    padding: 17px;
+    /* border-radius: 10px;
+    border: solid #a99191 1px; */
+    color: white;
+    font-family: thin;
+}
+.wordlist
+{
+    border-radius: 10px;
+    border: solid #b3b3b3 1px;
+    height: 300px;
+    position: relative;
+}
+.up_de
+{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: 900px;
+}
+.wordlist_one
+{
+    margin-left: 30px;
+}
+.upde
+{
+    right: 30px;
+    position: absolute;
+    bottom: 16px;
+}
+.time
+{
+    padding-left: 30px;
+}
+.sear_k
+{
+    width: 237px;
+    height: 24px;
+}
+.sear_sub
+{
+    height: 30px;
+    width: 60px;
+}
+.index
+{
+    text-align: center;
+}
+.paging
+{
+    text-decoration: none;
+    color: #835244c7;
+    border: solid;
+    padding: 6px 20px;
+    font-size: 13px;
+    background-color: #ad7a69db;
+    border-radius: 3px;
+}
+.mess h4
+{
+    padding-left: 70px;
+}
+.message
+{
+    padding-left: 30px;
+    border: solid;
+    border-radius: 10px;
+}
+.message_content
+{
+    margin-left: 30px;
+}
+#messtext
+{
+    resize: none;
+    width: 834px;
+    height: 70px;
+}
+.messtext
+{
+    margin: 30px 30px 93px;
+    position: relative;
+}
+.pinglun
+{
+    position: absolute;
+    right: 30px;
+    width: 70px;
+    color: #389acb;
+    border: solid;
+    padding: 6px 20px;
+    font-size: 13px;
+    background-color:white;
+    border-radius: 3px;
+}
+.pinglun:hover
+{
+    background-color: #68c7c7;
+}
