@@ -3,6 +3,103 @@ body
     margin: 0;
     padding: 0;
 }
+
+
+
+.list
+{
+    z-index: 2;
+    position: relative;
+    padding: 70px 0;
+    background: url(./instagram/bag13.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.details
+{
+    text-decoration: none;
+    color: white;
+    width: 700px;
+    height: 200px;
+}
+.biga:hover
+{
+    background-color: #e1d6cf45;
+}
+#pub_a
+{
+    text-decoration: none;
+    color: #835244c7;
+    border: solid;
+    padding: 6px 20px;
+    font-size: 13px;
+    background-color:white;
+    border-radius: 3px;
+}
+#pub_a:hover
+{
+    background-color: #bdb8b861;
+}
+#content li
+{
+    padding: 17px 0;
+}
+#content
+{
+    width: 900px;
+    /* height: 700px; */
+    margin: 17px auto;
+    padding: 17px;
+    /* border-radius: 10px;
+    border: solid #a99191 1px; */
+    color: white;
+    font-family: thin;
+}
+.wordlist
+{
+    border-radius: 10px;
+    border: solid #b3b3b3 1px;
+    margin-bottom: 70px;
+    height: 300px;
+    position: relative;
+}
+.up_de
+{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: 900px;
+}
+.wordlist_one
+{
+    margin-left: 30px;
+}
+.upde
+{
+    right: 30px;
+    position: absolute;
+    bottom: 16px;
+}
+.time
+{
+    padding-left: 30px;
+}
+.sear_k
+{
+    width: 237px;
+    height: 24px;
+}
+.sear_sub
+{
+    height: 30px;
+    width: 60px;
+}
+
+
+
+
+
 #one,.two,#three,#liyan,.footer
 {
     overflow: hidden;
@@ -45,9 +142,9 @@ body
 {
     background-image: url("./instagram/bag19.jpg");
     background-repeat: no-repeat;
-    height: 100vh;
     background-size: cover;
     overflow: hidden;
+    height: 100vh;
 }
 .header>li:nth-child(2)
 {
@@ -406,6 +503,26 @@ h2
     background-color: rgb(47, 54, 75);
     height: 230px;
 }
+#login
+{
+    float: right;
+    top: 15px;
+    right: 25px;
+    position: relative;
+    color: white;
+    font-size: 44px;
+    font-family: long;
+}
+#login a
+{
+    text-decoration: none;
+}
+#login a:hover
+{
+    background-color: #2b82b194;
+    /* border: solid #2b82b194 1px; */
+    border-radius: 5px;
+}
 #liuyan
 {
     text-align: center;
@@ -417,12 +534,13 @@ h2
     background-position: center;
     background-repeat: no-repeat;
 }
-#liuyan h3
+#h_three
 {
     padding-bottom: 37px;
     margin: 0;
     color: #ffffff;
     font-family:thin;
+    text-align: center;
 }
 .input1
 {
@@ -507,6 +625,10 @@ h2
     .atwo
     {
         font-size: 15px;
+    }
+    #login
+    {
+        font-size: 27px;
     }
     .one-1
     {
