@@ -1,0 +1,222 @@
+.top-1
+{
+    width: 100%;
+    min-width: 1000px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-1-one
+{
+    margin-left: 5%;
+}
+.two
+{
+    width: 580px;
+    margin-right: 5%;
+    min-width: 580px;
+}
+.top-2
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 1000px;
+}
+.img_one
+{
+    width: 100%;
+}
+.word-2
+{
+    position: absolute;
+    font-size: xxx-large;
+    color: #1b4458;
+    font-family: thin;
+    word-spacing: 23px;
+}
+@font-face {
+    font-family: thin;
+    src: url(../font/segoeuil.ttf);
+}
+.word-1
+{
+    font-family: thin;
+    font-size: larger;
+}
+.word-1:hover
+{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.word-2-1
+{
+    position: absolute;
+    margin-top: 100px;
+    font-family: thin;
+    font-size: large;
+}
+.top-3
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    min-width: 1000px;
+}
+.img_two
+{
+    width: 98%;
+}
+.top-3-1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    margin-left: 42px;
+    margin-right: 51px;
+}
+.top-3-2
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.middle
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    width: 100%;
+    min-width: 1000px;
+}
+.word-4
+{
+    font-family: thin;
+}
+.vido
+{
+    width: 850px; 
+    height: 500px;
+}
+.midtwo
+{
+    border-top-style: none;
+    min-width: 1000px;
+}
+.middle-2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative; 
+    margin-bottom: 50px; 
+}
+.img_three
+{
+    width: 70%;
+    height: 370px;
+    transition: all .8s;
+}
+.img_three:hover
+{
+    transform: scale(1.1);
+    opacity: 0.7;
+    cursor: pointer;
+}
+.wordmid
+{   
+    font-family: thin;
+    position: absolute;
+    opacity: 0;
+    width:65%;
+    transform: translateY(168%);
+    transition: 0.8s ease-out;
+}
+.end
+{
+    color: white;
+}
+.img_three:hover+.wordmid
+{
+    transform: translateY(67%);
+    opacity: 1;
+}
+.wordmid:hover
+{
+    transform: translateY(67%);
+    opacity: 1; 
+    cursor: pointer;
+}
+.bottom
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+    min-width: 1000px;
+}
+.button
+{
+    border: solid;
+    border-radius: 50px;
+    height: 30px;
+    width: 265px;
+    margin-top: 17px;
+    margin-bottom: 120px;
+    border-color: #878787;
+    background-color: whitesmoke;
+    min-width: 265px;
+}
+.bottom-1
+{
+    margin-right: 350px;
+    margin-left: 350px;
+    min-width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo
+{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-width: 18px;
+    border: solid black;
+    align-items: center;
+    justify-content: center;
+}
+.logo:hover
+{
+    background-color:#55acee;
+    cursor: pointer;
+}
+.bottomlast
+{
+    min-width: 1000px;
+    height: 330px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3b3b3b;
+    align-items: center;
+}
+.last
+{
+    font-family: thin;
+    color:white;
+}
+.wordlast-1:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
