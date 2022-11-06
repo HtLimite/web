@@ -295,6 +295,7 @@ function beforeSubmit(form){
     return false;}
     return true;
 }
+//js跳转
 const story = document.getElementById("story");
 const hh = document.getElementById("three");
 console.log(story,hh);
